@@ -24,13 +24,13 @@
 #ifndef _DSTACK_H_
 #define _DSTACK_H_
 
-#define RET_OK 0		//正确
-#define RET_ERR	-1		//返回错误
-#define RET_ERR_ARG	-2	//参数错误
-#define MALL_ERR -3		//分配空间错误
-#define NOT_FOUND 1		//没有查找结果
+#define RET_OK			0		//正确
+#define RET_ERR			-1		//返回错误
+#define RET_ERR_ARG		-2		//参数错误
+#define MALL_ERR		-3		//分配空间错误
+#define NOT_FOUND		1		//没有查找结果
 
-#define INITSPACE 5		//初始大小
+#define INITSPACE		5		//初始大小
 
 typedef int Type;				//类型
 typedef int Ret;				//返回结果
